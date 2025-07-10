@@ -5,12 +5,12 @@
   "version": "2025.1.7",
   "type": "module",
   "scripts": {
-    "build": "npx shopify hydrogen build --codegen"
-    "dev": "shopify hydrogen dev --codegen",
-    "preview": "shopify hydrogen preview --build",
-    "lint": "eslint --no-error-on-unmatched-pattern .",
-    "codegen": "shopify hydrogen codegen"
-  },
+  "build": "npx shopify hydrogen build --codegen",
+  "dev": "shopify hydrogen dev --codegen",
+  "preview": "shopify hydrogen preview --build",
+  "lint": "eslint --no-error-on-unmatched-pattern .",
+  "codegen": "shopify hydrogen codegen"
+},
   "prettier": "@shopify/prettier-config",
   "dependencies": {
     "@remix-run/react": "^2.16.1",
